@@ -42,8 +42,8 @@ public class ViewJPanel extends javax.swing.JPanel {
         txtDevicetype = new javax.swing.JTextField();
         IblIpaddress = new javax.swing.JLabel();
         txtIpaddress = new javax.swing.JTextField();
-        jLabel16 = new javax.swing.JLabel();
-        txtDevicenumber = new javax.swing.JTextField();
+        lblUniquenumber = new javax.swing.JLabel();
+        txtUniquenumber = new javax.swing.JTextField();
         jLabel17 = new javax.swing.JLabel();
         txtLinkedln = new javax.swing.JTextField();
         lblFirstname = new javax.swing.JLabel();
@@ -102,11 +102,11 @@ public class ViewJPanel extends javax.swing.JPanel {
 
         IblIpaddress.setText("Ip Address");
 
-        jLabel16.setText("Device Number");
+        lblUniquenumber.setText("Unique Number");
 
-        txtDevicenumber.addActionListener(new java.awt.event.ActionListener() {
+        txtUniquenumber.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtDevicenumberActionPerformed(evt);
+                txtUniquenumberActionPerformed(evt);
             }
         });
 
@@ -306,13 +306,13 @@ public class ViewJPanel extends javax.swing.JPanel {
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                     .addGap(59, 59, 59)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jLabel16)
+                                        .addComponent(lblUniquenumber)
                                         .addComponent(jLabel14)
                                         .addComponent(IblIpaddress))
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addComponent(txtLicenseplatenumber)
-                                        .addComponent(txtDevicenumber, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
+                                        .addComponent(txtUniquenumber, javax.swing.GroupLayout.DEFAULT_SIZE, 127, Short.MAX_VALUE)
                                         .addComponent(txtIpaddress)))))
                         .addComponent(lblAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(lblEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -403,8 +403,8 @@ public class ViewJPanel extends javax.swing.JPanel {
                                 .addComponent(txtLinkedln, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(layout.createSequentialGroup()
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel16)
-                                .addComponent(txtDevicenumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(lblUniquenumber)
+                                .addComponent(txtUniquenumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(txtIpaddress, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -421,9 +421,9 @@ public class ViewJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtDevicetypeActionPerformed
 
-    private void txtDevicenumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDevicenumberActionPerformed
+    private void txtUniquenumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUniquenumberActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtDevicenumberActionPerformed
+    }//GEN-LAST:event_txtUniquenumberActionPerformed
 
     private void txtLinkedlnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLinkedlnActionPerformed
         // TODO add your handling code here:
@@ -482,7 +482,6 @@ public class ViewJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel3;
@@ -496,13 +495,13 @@ public class ViewJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel lblFirstname;
     private javax.swing.JLabel lblLastName;
     private javax.swing.JLabel lblState;
+    private javax.swing.JLabel lblUniquenumber;
     private javax.swing.JLabel lblZipcode;
     private javax.swing.JLabel lblphone;
     private javax.swing.JLabel lblssn;
     private javax.swing.JTextField txtAddress;
     private javax.swing.JTextField txtBankaccountnumber;
     private javax.swing.JTextField txtCity;
-    private javax.swing.JTextField txtDevicenumber;
     private javax.swing.JTextField txtDevicetype;
     private javax.swing.JTextField txtDob;
     private javax.swing.JTextField txtEmail;
@@ -518,6 +517,7 @@ public class ViewJPanel extends javax.swing.JPanel {
     private javax.swing.JTextField txtPhonenumber;
     private javax.swing.JTextField txtSsn;
     private javax.swing.JTextField txtState;
+    private javax.swing.JTextField txtUniquenumber;
     private javax.swing.JTextField txtVehicletype;
     private javax.swing.JTextField txtZipcode;
     // End of variables declaration//GEN-END:variables
@@ -541,7 +541,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         txtLicenseplatenumber.setText(personal.getLicenseplatenumber());
         txtVehicletype.setText(personal.getVehciletype());
         txtDevicetype.setText(personal.getDevicetype());
-        txtDevicenumber.setText(personal.getDevicetype());
+        txtUniquenumber.setText(personal.getUniquenumber());
         txtLinkedln.setText(personal.getLinkedln());
         txtIpaddress.setText(personal.getIpaddress());
         ImageIcon img = new ImageIcon(personal.getImagelabel());

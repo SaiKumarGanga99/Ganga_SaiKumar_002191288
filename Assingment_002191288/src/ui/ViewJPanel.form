@@ -127,14 +127,14 @@
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel16" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblUniquenumber" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="IblIpaddress" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="txtLicenseplatenumber" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtDevicenumber" alignment="0" pref="127" max="32767" attributes="0"/>
+                                      <Component id="txtUniquenumber" alignment="0" pref="127" max="32767" attributes="0"/>
                                       <Component id="txtIpaddress" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
@@ -250,8 +250,8 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtDevicenumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblUniquenumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtUniquenumber" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -301,14 +301,14 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtIpaddress">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel16">
+    <Component class="javax.swing.JLabel" name="lblUniquenumber">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Device Number"/>
+        <Property name="text" type="java.lang.String" value="Unique Number"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtDevicenumber">
+    <Component class="javax.swing.JTextField" name="txtUniquenumber">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDevicenumberActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUniquenumberActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel17">
