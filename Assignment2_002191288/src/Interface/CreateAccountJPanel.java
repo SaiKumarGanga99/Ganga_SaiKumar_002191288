@@ -70,14 +70,13 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
         txtAvailableSeats = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(255, 255, 204));
+        setBackground(new java.awt.Color(153, 0, 255));
         setForeground(new java.awt.Color(204, 204, 255));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setRequestFocusEnabled(false);
 
         lblTitle.setBackground(new java.awt.Color(255, 153, 153));
         lblTitle.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        lblTitle.setForeground(new java.awt.Color(51, 0, 204));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Create Uber Rides");
 
@@ -121,7 +120,7 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
 
         btnCreate.setBackground(new java.awt.Color(153, 153, 153));
         btnCreate.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
-        btnCreate.setText("Create");
+        btnCreate.setText("CREATE");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCreateActionPerformed(evt);
@@ -130,7 +129,7 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
 
         btnBack.setBackground(new java.awt.Color(153, 153, 153));
         btnBack.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
-        btnBack.setText("<< Back");
+        btnBack.setText("GO BACK");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
@@ -177,7 +176,7 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
                 .addComponent(lblTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(40, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -208,7 +207,7 @@ public class CreateAccountJPanel extends javax.swing.JPanel {
                         .addComponent(checkAvailabilityYes)
                         .addGap(18, 18, 18)
                         .addComponent(checkAvailabilityNo)))
-                .addGap(780, 780, 780))
+                .addGap(794, 794, 794))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

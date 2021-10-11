@@ -97,12 +97,13 @@ public class ViewJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         txtUpdatedTime = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(255, 204, 153));
+        setBackground(new java.awt.Color(51, 51, 51));
 
+        lblHeader.setBackground(new java.awt.Color(51, 51, 51));
         lblHeader.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        lblHeader.setForeground(new java.awt.Color(0, 153, 153));
+        lblHeader.setForeground(new java.awt.Color(255, 255, 255));
         lblHeader.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblHeader.setText("View Account");
+        lblHeader.setText("View Uber Account");
         lblHeader.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N

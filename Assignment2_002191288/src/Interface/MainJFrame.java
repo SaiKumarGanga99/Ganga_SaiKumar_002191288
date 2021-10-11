@@ -47,11 +47,11 @@ public class MainJFrame extends javax.swing.JFrame {
 
         splitPanel.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        uberAccountPanel.setBackground(new java.awt.Color(51, 255, 153));
+        uberAccountPanel.setBackground(new java.awt.Color(0, 0, 0));
 
         buttonUberAccount.setBackground(new java.awt.Color(204, 204, 255));
         buttonUberAccount.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        buttonUberAccount.setForeground(new java.awt.Color(255, 0, 0));
+        buttonUberAccount.setForeground(new java.awt.Color(51, 51, 51));
         buttonUberAccount.setText("UBER RIDES");
         buttonUberAccount.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,9 +64,9 @@ public class MainJFrame extends javax.swing.JFrame {
         uberAccountPanelLayout.setHorizontalGroup(
             uberAccountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, uberAccountPanelLayout.createSequentialGroup()
-                .addContainerGap(547, Short.MAX_VALUE)
+                .addContainerGap(311, Short.MAX_VALUE)
                 .addComponent(buttonUberAccount, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(242, 242, 242))
         );
         uberAccountPanelLayout.setVerticalGroup(
             uberAccountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -78,7 +78,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         splitPanel.setTopComponent(uberAccountPanel);
 
-        userProcessContainer.setBackground(new java.awt.Color(51, 153, 255));
+        userProcessContainer.setBackground(new java.awt.Color(153, 153, 153));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         splitPanel.setRightComponent(userProcessContainer);
 

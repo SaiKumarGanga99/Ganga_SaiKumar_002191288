@@ -40,11 +40,11 @@ public class UberAccountWorkAreaPanel extends javax.swing.JPanel {
         btnRegister = new javax.swing.JButton();
         btnManage = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 153, 255));
+        setBackground(new java.awt.Color(51, 51, 51));
 
         btnRegister.setBackground(new java.awt.Color(255, 204, 204));
         btnRegister.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        btnRegister.setForeground(new java.awt.Color(255, 0, 0));
+        btnRegister.setForeground(new java.awt.Color(51, 51, 51));
         btnRegister.setText("UBER-SIGNIN");
         btnRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -54,7 +54,6 @@ public class UberAccountWorkAreaPanel extends javax.swing.JPanel {
 
         btnManage.setBackground(new java.awt.Color(255, 204, 204));
         btnManage.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        btnManage.setForeground(new java.awt.Color(255, 0, 0));
         btnManage.setText("MANAGE UBER ACCOUNT");
         btnManage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
