@@ -60,7 +60,7 @@ public class CreateRestaurantJPanel extends javax.swing.JPanel {
         jLabel9 = new javax.swing.JLabel();
         txtPassword = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(153, 102, 255));
 
         btnBack.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btnBack.setText("<Back");

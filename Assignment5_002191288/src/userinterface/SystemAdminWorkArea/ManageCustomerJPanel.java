@@ -99,7 +99,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
         txtPhoneNumber = new javax.swing.JTextField();
         txtPassword = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(153, 102, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jLabel1.setText("Manage Customer");

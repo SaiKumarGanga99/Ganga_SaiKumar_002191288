@@ -64,7 +64,7 @@ public class CreateDeliveryManJPanel extends javax.swing.JPanel {
         txtPhoneNumber = new javax.swing.JTextField();
         btnCreate = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(102, 102, 255));
 
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel8.setText("Username*:");
