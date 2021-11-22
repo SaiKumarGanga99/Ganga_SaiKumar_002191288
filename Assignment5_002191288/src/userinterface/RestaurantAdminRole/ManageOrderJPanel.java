@@ -76,7 +76,7 @@ public class ManageOrderJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(153, 102, 255));
         setFont(new java.awt.Font("Times New Roman", 1, 11)); // NOI18N
 
         tblOrder.setModel(new javax.swing.table.DefaultTableModel(
